@@ -11,29 +11,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "babel-jest": "^26.6.3",
-    "babel-loader": "^8.2.5",
-    "babel-plugin-module-resolver": "^4.1.0",
-    "babel-plugin-react-native-web": "^0.18.9",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^7.2.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.5.0",
-    "graphql-anywhere": "4.1.0",
-    "jest": "^26.6.3",
-    "metro-react-native-babel-preset": "^0.67.0",
-    "prettier": "^2.6.2",
-    "react-native-svg-transformer": "^1.0.0",
-    "react-test-renderer": "18.0.0",
-    "ts-loader": "^9.3.1",
-    "typescript": "4.8.4",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.10.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -57,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "styled-components": "^5.0.0"
   }
 }
