@@ -6,9 +6,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const MyComponent = props => {
+    useScript('/ccp-script.js');
+  }
 root.render(
+  
   <React.StrictMode>
-    <App />
+    <App>
+      <MyComponent/>
+    </App> 
+
   </React.StrictMode>
 );
 

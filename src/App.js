@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import useScript from 'hooks/useScript';
+import useScript from './useScript';
 
 function App() {
-  const MyComponent = props => {
-    useScript('/ccp-script.js');
-  }
+  
   return (
+    
     <div className="App">
       <header className="App-header">
-        
+        <div id="containerDiv" ></div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,7 +21,7 @@ function App() {
         >
           TEST TEST TEST
         </a>
-        <div id="containerDiv" ></div>
+        
       </header>
     </div>
   );
