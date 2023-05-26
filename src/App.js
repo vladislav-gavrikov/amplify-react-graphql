@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import useScript from './useScript';
 
 function App() {
   
@@ -8,8 +7,9 @@ function App() {
     
     <div className="App">
       <header className="App-header">
-        <div id="containerDiv" ></div>
+      
         <img src={logo} className="App-logo" alt="logo" />
+        <div id="containerDiv" className="CCP-app"></div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

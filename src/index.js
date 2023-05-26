@@ -4,18 +4,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import useScript from './useScript';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const MyComponent = props => {
+const CCP = props => {
     useScript('/ccp-script.js');
   }
-root.render(
-  
-  <React.StrictMode>
-    <App>
-      <MyComponent/>
-    </App> 
 
+root.render(
+
+  <React.StrictMode>
+    <CCP></CCP>
+    <App>
+      
+      
+    </App>
   </React.StrictMode>
 );
 
