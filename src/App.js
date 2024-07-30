@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>
-          Sample CCP embeded app with Stream APIs
+          Sample CfCP embeded app with Stream APIs
         </h2>
         <div id="containerDiv" className="CCP-app"></div>
         <p>Firefox not working. Please use Chrome/Edge</p>   
